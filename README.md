@@ -5,7 +5,7 @@ WLM‑SLP — Structure Language Protocol
 The Expression Layer of the World Layer Model
 
 1. Definition
-SLP (Structure Language Protocol) is the expression layer of WLM.
+Structure Language Protocol (SLP) is the expression layer of WLM.
 It defines how structure becomes language, how dimensions become syntax, and how subjects communicate structure across human and AI systems.
 Where STP defines structure and SDP defines motion,
 SLP defines expression.
