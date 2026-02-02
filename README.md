@@ -208,4 +208,72 @@ It defines:
 - how AI and humans speak WLM
 SLP is the universal structural language of the World Layer Model.
 
+13. Directory Structure
+SLP/
+├── README.md
+│
+├── LICENSE
+│
+├── syntax/
+│   ├── structural-syntax.md
+│   ├── dimensional-syntax.md
+│   ├── closure-syntax.md
+│   ├── tension-syntax.md
+│   ├── subject-syntax.md
+│   └── interoperability-syntax.md
+│
+├── grammar/
+│   ├── slp-grammar.md
+│   ├── tokens.md
+│   ├── operators.md
+│   ├── expressions.md
+│   ├── statements.md
+│   └── rendering-rules.md
+│
+├── examples/
+│   ├── basic-expressions.md
+│   ├── dimensional-expressions.md
+│   ├── closure-expressions.md
+│   ├── multi-agent-expressions.md
+│   └── narrative-compatible-expressions.md
+│
+├── interpreter/
+│   ├── parsing-rules.md
+│   ├── evaluation-rules.md
+│   ├── closure-resolution.md
+│   ├── dimensional-resolution.md
+│   └── ai-human-translation.md
+│
+└── specs/
+    ├── slp-spec.md
+    ├── slp-minimal.md
+    ├── slp-extended.md
+    └── slp-interoperability.md
+
+
+
+14. Licensing
+SLP is released under the MIT License, enabling:
+- free use
+- free modification
+- free distribution
+- free implementation in software, hardware, or protocols
+- commercial and non‑commercial use
+Attribution is required when:
+- reusing SLP specifications
+- embedding SLP grammar or syntax
+- implementing SLP in AI systems
+- extending SLP into derivative protocols
+SLP is a universal structural language, not a proprietary format.
+The license ensures that:
+- humans can speak it
+- AI can implement it
+- systems can interoperate
+- researchers can extend it
+- organizations can adopt it
+The full license text is provided in the repository root as LICENSE.
+
+
+
+
 
