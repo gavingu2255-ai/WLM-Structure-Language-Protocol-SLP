@@ -214,3 +214,59 @@ Clears runtime state (interpreter output must be reloaded).
 ## 11. API Error Model
 
 All API errors follow a unified structure:
+{ "error": "<error_code>", "message": "<human-readable description>", "details": { ... } }
+
+Common error codes:
+
+- `INVALID_NODE`  
+- `INVALID_RELATION`  
+- `INVALID_BLOCK`  
+- `INVALID_ATTRIBUTE`  
+- `INVALID_DIMENSION`  
+- `INVALID_CLOSURE`  
+- `CONFLICTING_UPDATE`  
+- `VALIDATION_FAILED`  
+- `UNRESOLVED_DEPENDENCY`  
+
+Errors never leave the runtime in a partial state.
+
+---
+
+## 12. External AI Integration
+
+External AI systems (including Copilot) may use the API to:
+
+- read graph state  
+- propose updates  
+- enqueue events  
+- trigger execution  
+- perform structural reasoning  
+- render human‑readable interpretations  
+
+They may **not**:
+
+- mutate memory directly  
+- bypass validation  
+- reorder events  
+- override execution rules  
+- introduce hidden state  
+
+The API is the **only legal interface** for AI interaction.
+
+---
+
+## 13. Summary
+
+The API Layer defines:
+
+- how external systems interact with the runtime  
+- how nodes, relations, blocks, and attributes are created and updated  
+- how execution is triggered  
+- how state is queried  
+- how errors are handled  
+- how AI systems integrate safely  
+
+This file completes the **public boundary** of the SLP runtime.
+
+
+
