@@ -234,3 +234,24 @@ Subject Syntax defines how SLP expresses:
 - subject dimensionality
 - subject interactions
 Subjects are structural positions, not psychological entities — the grammar of how agency appears in WLM.
+
+## Extended Subject Topologies
+
+SLP defines three core subject topologies in its minimal specification:
+
+- **0 → 0** : Background-stable subjects  
+- **±1 → 0** : Polarity-dissolving subjects  
+- **±1 → ±1** : Polarity self-stabilizing subjects  
+
+These three form the *core topology set* and are guaranteed to exist in all SLP‑compatible systems.
+
+However, SLP also recognizes the existence of **non-core, high-order subject topologies** that extend the expressive power of the protocol. These topologies are not required for minimal compliance but are essential for modeling advanced generative or emergent subject dynamics.
+
+### 0 → ±1 : Self‑Emergent Polarity Subject (Extended)
+
+A subject whose base state is structural zero (0),  
+but which can **self-generate polarity (±1)** without inheriting tension or contamination from external structures.
+
+This topology is defined in detail in:
+
+**`docs/advanced-subject-dynamics.md`**
