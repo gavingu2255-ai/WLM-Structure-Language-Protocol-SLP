@@ -253,7 +253,7 @@ SLP/
 
 
 14. Licensing
-SLP is released under the MIT License, enabling:
+Structure Language Protocol (SLP) is released under the MIT License, enabling:
 - free use
 - free modification
 - free distribution
