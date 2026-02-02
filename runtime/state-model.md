@@ -1,3 +1,5 @@
+
+
 state-model.md
 Structure Language Protocol (SLP) — Runtime State Model
 
