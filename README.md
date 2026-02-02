@@ -149,6 +149,7 @@ slp/
 │   └── linter.md
 │
 └── docs/
+    ├── advanced-subject-dynamics.md
     ├── overview.md
     ├── quickstart.md
     ├── faq.md
