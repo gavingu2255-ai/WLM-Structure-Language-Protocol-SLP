@@ -233,3 +233,33 @@ Each version expands SLP’s expressive power while preserving its core principl
 - minimalism  
 
 SLP is designed to grow for decades without losing its structural integrity.
+
+## Advanced Subject Dynamics (STP‑EXT)
+
+SLP will introduce an extended module for modeling **non-core subject topologies** that go beyond the minimal specification.  
+This module expands the expressive capacity of the protocol and enables representation of high-order generative or emergent subject behavior.
+
+### Planned Additions
+
+- **0 → ±1 : Self‑Emergent Polarity Subject**  
+  A subject whose base state is structural zero (0) and which can self-generate polarity (±1) without inheriting tension or contamination.
+
+- Integration of the **Four-Quadrant Subject Topology Model**, including:
+  - 0 → 0 (Background-stable)
+  - ±1 → 0 (Polarity-dissolving)
+  - ±1 → ±1 (Polarity self-stabilizing)
+  - 0 → ±1 (Self-emergent polarity)
+
+### Goals
+
+- Provide a unified framework for advanced subject dynamics  
+- Maintain backward compatibility with the core STP specification  
+- Ensure interpreter and runtime neutrality  
+- Allow optional adoption by implementations without requiring full compliance  
+
+### Status
+
+- Specification: In progress  
+- Syntax integration: Complete (subject-syntax.md)  
+- Documentation: In progress (advanced-subject-dynamics.md)  
+- Implementation: Deferred to post‑1.0 releases  
