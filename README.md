@@ -81,6 +81,7 @@ slp/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE.md
+├── ALIGNMENT_NOTICE.md
 │
 ├── syntax/
 │   ├── structural-syntax.md
