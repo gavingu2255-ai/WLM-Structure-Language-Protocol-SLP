@@ -220,3 +220,76 @@ Errors follow a strict lifecycle:
 ## 11. Error Response Format
 
 All errors follow a unified structure:
+{ "error": "<error_code>", "message": "<description>", "details": { "event": "<event_id>", "node": "<node_id>", "relation": "<relation_id>", "block": "<block_id>", "attribute": "<attribute_id>" } }
+
+Fields not relevant to the error are omitted.
+
+---
+
+## 12. Rollback Model
+
+Rollback guarantees:
+
+- no partial updates  
+- no corrupted memory  
+- no inconsistent propagation  
+
+Rollback is triggered automatically when:
+
+- validation fails  
+- propagation fails  
+- execution fails  
+- conflict resolution fails  
+- API call violates constraints  
+
+Rollback restores:
+
+- node memory  
+- relation memory  
+- block memory  
+- attribute memory  
+- metadata (except error logs)  
+
+---
+
+## 13. Integration With Event Loop
+
+The event loop:
+
+- detects errors  
+- halts execution  
+- triggers rollback  
+- logs the error  
+- marks the event as failed  
+- resumes with the next event  
+
+Errors do **not** stop the runtime.
+
+---
+
+## 14. External AI Error Handling
+
+External AI systems (including Copilot):
+
+- receive structured error responses  
+- may retry with corrected input  
+- may not override or suppress errors  
+- may not bypass rollback  
+- may not force commit of invalid states  
+
+AI systems must treat errors as **hard boundaries**, not suggestions.
+
+---
+
+## 15. Summary
+
+The Error Handling Model defines:
+
+- how errors are detected, classified, and reported  
+- how rollback preserves consistency  
+- how invalid states are prevented  
+- how the runtime integrates error handling with execution and events  
+- how external systems interact safely  
+
+This file completes the **runtime immune system**, ensuring SLP remains stable, deterministic, and structurally sound.
+
