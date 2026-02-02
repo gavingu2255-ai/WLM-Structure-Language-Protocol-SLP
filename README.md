@@ -209,7 +209,7 @@ It defines:
 SLP is the universal structural language of the World Layer Model.
 
 13. Directory Structure
-SLP/
+Structure Language Protocol (SLP)/
 ├── README.md
 │
 ├── LICENSE
