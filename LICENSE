@@ -1,141 +1,90 @@
-STRUCTURE LANGUAGE PROTOCOL (SLP)
-STRUCTURAL LICENSE v0.9
---------------------------------
+# WLM Shadow Layer License 1.0
+(Structure Visible · Protocol Sealed · No Implementation Rights)
 
-This license governs the use, reproduction, modification, and distribution of
-the Structure Language Protocol (SLP) and all materials contained in this
-repository.
+## 1. Scope
+This license applies to the **WLM Structure Language Protocol (SLP)**, including all syntax definitions, structural grammar, dimensional operators, rendering rules, interpreter logic, examples, diagrams, and conceptual frameworks contained in this repository.
 
-SLP is a structural protocol. Its licensing model is designed to ensure:
+SLP is part of the **WLM Shadow Layer**.  
+It is a **structural language**, not an implementation specification.
 
-1. Universal accessibility
-2. Non‑enclosability
-3. Structural integrity
-4. Deterministic interoperability
-5. Freedom to use, extend, and propagate
-6. Protection against asymmetric extraction
+---
 
-This license is intentionally minimal, explicit, and future‑proof.
+## 2. Permissions (Read‑Only)
+You may:
 
---------------------------------
-SECTION 1 — DEFINITIONS
---------------------------------
+- Read the SLP Shadow Layer  
+- Cite or reference it for academic or theoretical work  
+- Discuss or analyze its structural language  
+- Use it for non‑commercial research  
 
-“Protocol” refers to the Structure Language Protocol (SLP), including syntax,
-grammar, interpreter rules, resolution rules, runtime semantics, examples,
-tests, and documentation.
+These permissions apply **only** to the Shadow Layer.
 
-“Structural Work” refers to any derivative work that:
-- implements the protocol,
-- extends the protocol,
-- interoperates with the protocol,
-- or uses the protocol as a representational substrate.
+---
 
-“Contributor” refers to any individual or entity submitting changes to the
-Protocol or Structural Work.
+## 3. Prohibitions (Strict)
+You may **not**:
 
-“User” refers to any individual or entity using, implementing, or distributing
-the Protocol or Structural Work.
+- Implement SLP  
+- Train models using SLP structures  
+- Reconstruct, approximate, or simulate SLP execution  
+- Create derivative structural languages  
+- Build compatibility layers or adapters  
+- Use SLP for commercial purposes  
+- Develop software, models, or systems based on SLP  
+- Reverse‑engineer dimensional syntax  
+- Infer or simulate the Implementation Layer  
+- Operationalize any part of the SLP grammar or interpreter  
 
---------------------------------
-SECTION 2 — PERMISSIONS
---------------------------------
+Any attempt to operationalize SLP is strictly prohibited.
 
-Users are granted the following irrevocable rights:
+---
 
-1. **Use**  
-   You may use the Protocol for any purpose, including commercial, academic,
-   research, or personal applications.
+## 4. No Access to Protocol Layer
+This license does **not** grant access to:
 
-2. **Modify**  
-   You may modify the Protocol or create Structural Works, provided that such
-   modifications do not misrepresent the Protocol as canonical.
+- The 160,000‑word Implementation Layer  
+- Routing rules  
+- Execution logic  
+- Training formats  
+- Model interfaces  
+- Commercial integration pathways  
 
-3. **Distribute**  
-   You may distribute the Protocol or Structural Works in any medium.
+SLP is **structural**, not operational.
 
-4. **Implement**  
-   You may implement the Protocol in any programming language, runtime, or
-   environment.
+---
 
-5. **Extend**  
-   You may create extensions, provided they are clearly marked as extensions and
-   do not claim to replace or supersede the canonical Protocol.
+## 5. No Derivative Works
+You may not modify, adapt, extend, translate, transform, or repackage any part of SLP.
 
---------------------------------
-SECTION 3 — CONDITIONS
---------------------------------
+---
 
-The following conditions apply to all use:
+## 6. No Commercial Use
+Commercial use of any kind is prohibited.
 
-1. **Attribution**  
-   You must include a reference to the Structure Language Protocol (SLP) and
-   this license in any distribution or Structural Work.
+---
 
-2. **Non‑Enclosure**  
-   You may not impose additional restrictions that would prevent others from
-   exercising the rights granted by this license.
+## 7. No Warranty
+SLP is provided “as is,” without warranty of any kind.
 
-3. **Integrity of Canonical Specification**  
-   You may not present modified versions of the Protocol as canonical.  
-   Canonical versions are those published in the official SLP repository.
+---
 
-4. **Interoperability Transparency**  
-   If your implementation deviates from the canonical Protocol, you must clearly
-   document the deviation.
+## 8. Source Boundary
+Structure may be studied;  
+**source may not be derived.**
 
-5. **No Structural Extraction**  
-   You may not enclose, privatize, or claim ownership over structural concepts,
-   patterns, or semantics defined by the Protocol.
+Language behavior may be observed;  
+**protocol may not be reconstructed.**
 
---------------------------------
-SECTION 4 — PROTECTIONS
---------------------------------
+---
 
-1. **Anti‑Enclosure Clause**  
-   No entity may claim exclusive rights over:
-   - the syntax of SLP,
-   - the grammar of SLP,
-   - the structural semantics of SLP,
-   - the runtime model of SLP,
-   - or any derivative structural pattern.
+## 9. Jurisdiction
+This license is governed by the laws of **Australia**.
 
-2. **Impedance Clause**  
-   Any attempt to enclose or privatize the Protocol automatically grants all
-   Users the right to fork and continue the Protocol under this same license.
+---
 
-3. **No Warranty**  
-   The Protocol is provided “as is,” without warranty of any kind.
-
-4. **No Liability**  
-   Contributors and maintainers are not liable for any damages arising from use
-   of the Protocol.
-
---------------------------------
-SECTION 5 — VERSIONING
---------------------------------
-
-This license applies to SLP v0.9.  
-Future versions may refine the language but will preserve:
-
-- openness  
-- non‑enclosability  
-- structural integrity  
-
---------------------------------
-SECTION 6 — SUMMARY
---------------------------------
-
-You are free to use, modify, implement, extend, and distribute SLP, provided
-you:
-
-- preserve attribution,
-- do not enclose the protocol,
-- maintain structural integrity,
-- and clearly distinguish canonical vs. extended versions.
-
-SLP is a protocol for everyone.  
-Its structure must remain free, open, and interoperable.
-
---------------------------------
-END OF LICENSE
+## 10. Author
+WLM Structure Language Protocol (SLP) — Shadow Layer  
+Version 1.0 (Final Freeze)  
+Author: **Wujie Gu (Gavin)**  
+Location: Melbourne, Australia  
+Date: **10 February 2026**
