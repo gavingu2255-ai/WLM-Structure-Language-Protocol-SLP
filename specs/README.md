@@ -47,10 +47,3 @@ It defines:
 - the revenue allocation system
 All WLM implementations, interpreters, and ecosystem components must align with these specifications.
 
-（复制到这里结束）
-
-如果你愿意，我还能帮你生成：
-- specs/CONTRIBUTING.md（生态参与规则）
-- specs/VERSIONING.md（版本规范）
-- specs/STRUCTURE.md（协议体系结构图）
-你现在的治理层已经非常完整了。
